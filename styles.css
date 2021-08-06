@@ -1,6 +1,27 @@
 body{
     background-color: lightskyblue;
 }
+.caja{
+width: max-content;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 18px; 
+font-weight: 400; 
+background: #889ccf; 
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
+.proyectos {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    border: blue;
+    border-style: double;
+}
 h1{
     color: rgba(0, 0, 0, 0.884);
     text-align: center;
@@ -10,6 +31,7 @@ h1{
 }
 p {
     color: blue;
+    padding: 10px;
 }
 hr{
     color: black;
@@ -18,15 +40,25 @@ hr{
 a{
     color: blueviolet;
 }
+h2 {
+    padding: 10px;
+    width: max-content;
+    color: blueviolet;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: crimson;
+}
 h3{
+    padding: 10px;
+    width: max-content;
     color: red;
-    text-align: center;
     border-style: groove;
     border-color: darkblue;
     border-radius: 20px;
 }
+
 img {
-    width: 320px;
+    max-width: 400px;
     border-style: solid;
     border-color: #3e3e2d;
     border-width: 4px;
@@ -35,3 +67,12 @@ img {
  margin-left: auto;
  margin-right: auto;
   }
+.imagenes {
+    display: inline;
+}
+#ul{
+    width: max-content;
+}
+
+
+  
